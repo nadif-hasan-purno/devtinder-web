@@ -3,7 +3,7 @@
 - Created a vite+react project
 - Remove unecessary code and create a hellow world app
 - Install Tailwind Css
-- Install Daisy UI 
+- Install Daisy UI
 - Add NavBar component to App.jsx
 - Create a NavBar.jsx separate Component file
 - Installed React-Router-Dom
@@ -14,12 +14,11 @@
 - Installed axios
 - CORS - install cors in backend => add middleware to with configurations: origin, credentials:true
 - Whenever you are making an API call please pass , axios => {withCredentials:true} (at Front-end code)
-
-
-
-
-
-
-
-
-
+- Installed Redux-toolkit 
+- Read the Redux-toolkit Doc
+- Install react-redux  +  @reduxjs/toolkit => configureStore => Provider => createSlice => add reducer to store
+- Add redux devtools in chrome
+- Login and see if your data coming properly in the store 
+- NavBar should update as soon as user logs in
+- Refactor code and add constants file + create a components folder
+- 
