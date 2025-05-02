@@ -14,19 +14,19 @@
 - Installed axios
 - CORS - install cors in backend => add middleware to with configurations: origin, credentials:true
 - Whenever you are making an API call please pass , axios => {withCredentials:true} (at Front-end code)
-- Installed Redux-toolkit 
+- Installed Redux-toolkit
 - Read the Redux-toolkit Doc
-- Install react-redux  +  @reduxjs/toolkit => configureStore => Provider => createSlice => add reducer to store
+- Install react-redux + @reduxjs/toolkit => configureStore => Provider => createSlice => add reducer to store
 - Add redux devtools in chrome
-- Login and see if your data coming properly in the store 
+- Login and see if your data coming properly in the store
 - NavBar should update as soon as user logs in
 - Refactor code and add constants file + create a components folder
 - You should not be access other routes without login
 - If token is not present, redirect user to login page
-- Logout 
+- Logout
 - Get the feed and add the feed in the store
 - Build userCard on feed
 - Edit Profile feature
 - Show Toast Message on save of profile
-- See all my connections
-- 
+- New Page - See all my connections
+- New Page - See all my Connectons Requests
