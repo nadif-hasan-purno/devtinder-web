@@ -31,10 +31,11 @@
 - New Page - See all my connections
 - New Page - See all my Connectons Requests
 - Feat. - Accept/Reject Connection Request
+- Send/Ignore the user card from feed
+-
 
 
 ## Remaining:
-- Send/Ignore the user card from feed
 - Signup New user
 - E2E Testing
 
