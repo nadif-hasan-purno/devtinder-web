@@ -42,7 +42,7 @@ const Connections = () => {
         return (
           <div
             key={_id}
-            className="flex m-4 p-4 rounded-lg shadow-lg bg-base-300 w-1/2 mx-auto"
+            className="flex justify-center items-center m-4 p-4 rounded-lg shadow-lg bg-base-300 w-2/3 mx-auto"
           >
             <div>
               <img
@@ -51,12 +51,14 @@ const Connections = () => {
                 src={photoUrl}
               />
             </div>
-            <div className="text-left mx-4">
-              <h2 className="font-bold text-xl">
+            <div className="size-[50%] m-1 p-1">
+              <h2 className="text-left justify-start font-bold text-lg">
                 {firstName} {lastName}
               </h2>
               {age && gender && <p>{age + ", " + gender}</p>}
-              <p>{bio}</p>
+              <p className="text-sm text-wrap text-left justify-start size-[70%] m-1 p-1">
+                {bio}
+              </p>
             </div>
           </div>
         );

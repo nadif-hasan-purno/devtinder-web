@@ -57,7 +57,7 @@ const Requests = () => {
         return (
           <div
             key={_id}
-            className="flex justify-between items-center m-4 p-4 rounded-lg shadow-lg bg-base-300 w-1/2 mx-auto"
+            className="flex justify-between items-center m-4 p-4 rounded-lg shadow-lg bg-base-300 w-2/3 mx-auto"
           >
             <div>
               <img
@@ -66,12 +66,14 @@ const Requests = () => {
                 src={photoUrl}
               />
             </div>
-            <div className="text-left mx-auto px-auto">
-              <h2 className="font-bold text-xl">
+            <div className="size-1/3 m-1 p-1">
+              <h2 className="text-left justify-start font-bold text-lg">
                 {firstName} {lastName}
               </h2>
               {age && gender && <p>{age + ", " + gender}</p>}
-              <p className="m-1 p-1 overflow-auto">{bio}</p>
+              <p className="text-sm text-wrap text-left justify-start size-[70%] m-1 p-1">
+                {bio}
+              </p>
             </div>
             <div>
               <button
