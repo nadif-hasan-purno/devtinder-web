@@ -93,3 +93,17 @@
         proxy_set_header Host $host;
         proxy_cache_bypass $http_upgrade;
     }
+
+
+
+
+# Adding a custom Domain Name
+
+
+  - purchased domain name from domainseller
+  - signup on cloudflare & add a new domain name
+  - changed the nameservers on the purchased accounts and point it to cloudflare
+  - waited for sometime(2 days almost) till nameservers are updated
+  - DNS record: A example.com ip proxy
+  - Enabled SSL for Website [Hw: try enabling full ssl] and I've done it already
+  - 
