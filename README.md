@@ -106,4 +106,23 @@
   - waited for sometime(2 days almost) till nameservers are updated
   - DNS record: A example.com ip proxy
   - Enabled SSL for Website [Hw: try enabling full ssl] and I've done it already
-  - 
+  
+
+
+  
+# Sending Emails via SES
+
+    - Created an IAM user
+    - Give Access to AmazonSESFullAccess
+    - Amazon SESCreate an Identity
+    - Verify your domain name
+    - Verify you email
+    - Install AWS SDK - v3
+    - Code Example https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/ses#code-examples
+    - Setup sesClient
+    - Access Credentials should be created in IAM under Security Credentials Tab
+    - Add the credentials to the env file
+    - Write code for SESClient 
+    - Write code for sending email address
+    - Make the email dynamic by passing more params to the run function
+    - 
